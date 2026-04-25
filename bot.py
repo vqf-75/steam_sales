@@ -1,7 +1,7 @@
 import requests
 
 # Discord Webhook URL'nizi buraya tırnaklar içine yapıştırın
-DISCORD_WEBHOOK_URL = "WEBHOOK_URL_BURAYA"
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1497717643082334398/vq7FWJ3TDGrJQ_CeI_y3OwPY1jHEwbwL---YaP9dAvyUY8aiq6sCYPc4bw3WFBRSBq0a"
 OYUN_LIMITI = 20
 
 def get_filtered_deals():
