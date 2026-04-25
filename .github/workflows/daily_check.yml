@@ -1,0 +1,25 @@
+name: Steam Indirim Kontrolü
+
+on:
+  schedule:
+    # Her gün Azerbaycan saatiyle sabah 10:00 (UTC 06:00)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Elle çalıştırma butonu
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu Klonla
+        uses: actions/checkout@v3
+
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Kütüphaneleri Yükle
+        run: pip install requests
+
+      - name: Botu Calistir
+        run: python bot.py
