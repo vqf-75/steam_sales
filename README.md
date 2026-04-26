@@ -1,4 +1,5 @@
-markdown_v2_content = """# 🎮 Steam İndirim Botu (Discord) - v0.2
+
+ 🎮 Steam İndirim Botu (Discord) - v0.2
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automated-orange?style=for-the-badge&logo=github-actions&logoColor=white)
