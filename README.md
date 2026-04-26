@@ -1,4 +1,4 @@
-"""# 🎮 Steam İndirim Botu (Discord)
+🎮 Steam İndirim Botu (Discord)
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automated-orange?style=for-the-badge&logo=github-actions&logoColor=white)
