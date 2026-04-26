@@ -2,10 +2,11 @@ name: Steam Indirim Kontrolü
 
 on:
   schedule:
-    # Her gün Azerbaycan saatiyle sabah 10:00 (UTC 06:00)
-    - cron: '0 6 * * *'
+    # Her gün Azerbaycan saatiyle:
+    # 10:00 (UTC 06:00)
+    # 19:00 (UTC 15:00)
+    - cron: '0 6,15 * * *'
   workflow_dispatch: # Elle çalıştırma butonu
-
 jobs:
   build:
     runs-on: ubuntu-latest
