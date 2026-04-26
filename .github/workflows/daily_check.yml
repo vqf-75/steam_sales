@@ -25,4 +25,4 @@ jobs:
       - name: Botu Calistir
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        run: python bot_0.2.py
+        run: python Bot_0.2.py
